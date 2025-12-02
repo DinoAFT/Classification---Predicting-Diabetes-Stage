@@ -1,0 +1,8 @@
+LDA Results:
+
+cv weighted f1: 0.734874
+test weighted f1: 0.737571
+test accuracy:0.749080
+number of features: 9 features
+selected features: 'glucose_postprandial', 'family_history_diabetes', 'age', 'physical_activity_minutes_per_week', 'bmi', 'waist_to_hip_ratio', 'triglycerides', 'ldl_cholesterol', 'hypertension_history'
+time: 99.162696 seconds
