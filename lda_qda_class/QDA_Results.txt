@@ -1,0 +1,8 @@
+QDA Results:
+
+cv weighted f1: 0.751513
+test weighted f1: 0.751502
+test accuracy: 0.752040
+number of features: 6 features
+selected features: 'glucose_postprandial', 'age', 'hdl_cholesterol', 'insulin_level', 'family_history_diabetes', 'heart_rate'
+time: 48.618971 seconds
