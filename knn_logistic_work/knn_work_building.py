@@ -36,21 +36,6 @@ def load_data():
         Y_test  = panda_object.read_csv(z.open('Y_test.csv'))
     return X_train_std, Y_train, X_test_std, Y_test
 
-def ex_load_data():
-    """
-    Load dataframe for analysis
-    Returns:
-        A dataframe from the passed in data set.
-    """
-    zip_path = "../ex_data_processed.zip"
-
-    with zipfile.ZipFile(zip_path, 'r') as z:
-        X_train_std = panda_object.read_csv(z.open('ex_X_train_std.csv'))
-        Y_train = panda_object.read_csv(z.open('ex_Y_train.csv'))
-        X_test_std  = panda_object.read_csv(z.open('ex_x_test_std.csv'))
-        Y_test  = panda_object.read_csv(z.open('ex_Y_test.csv'))
-    return X_train_std, Y_train, X_test_std, Y_test
-
 def get_ovr_feature_importances(ovr):
     return numpy_object.sum(numpy_object.abs(numpy_object.stack([e.coef_ for e in ovr.estimator_], axis=0)), axis=0).flatten()
 
