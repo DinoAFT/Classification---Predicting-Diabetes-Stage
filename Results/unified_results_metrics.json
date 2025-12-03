@@ -11,7 +11,7 @@
     "test_weighted_f1": 0.7301,
     "elapsed_time_seconds": 14754.05
   },
-  "LDS": {
+  "LDA": {
     "cv_weighted_f1": 0.734874,
     "test_weighted_f1": 0.737571,
     "test_accuracy": 0.749080,
