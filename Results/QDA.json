@@ -1,0 +1,22 @@
+
+{
+  "model_summary": {
+    "number_of_features": 6,
+    "selected_features": [
+      "glucose_postprandial",
+      "age",
+      "hdl_cholesterol",
+      "insulin_level",
+      "family_history_diabetes",
+      "heart_rate"
+    ],
+    "cross_validation_metrics": {
+      "cv_weighted_f1": 0.751513
+    },
+    "test_set_metrics": {
+      "test_weighted_f1": 0.751502,
+      "test_accuracy": 0.752040,
+      "elapsed_time_seconds": 48.618971
+    }
+  }
+}

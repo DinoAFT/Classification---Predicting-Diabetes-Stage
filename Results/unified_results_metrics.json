@@ -1,0 +1,38 @@
+{
+  "NaiveBayes": {
+    "cv_weighted_f1": 0.7506,
+    "test_accuracy": 0.7528,
+    "test_weighted_f1": 0.7504,
+    "elapsed_time_seconds": 702.03
+  },
+  "SVM": {
+    "cv_weighted_f1": 0.7307,
+    "test_accuracy": 0.7116,
+    "test_weighted_f1": 0.7301,
+    "elapsed_time_seconds": 14754.05
+  },
+  "LDS": {
+    "cv_weighted_f1": 0.734874,
+    "test_weighted_f1": 0.737571,
+    "test_accuracy": 0.749080,
+    "elapsed_time_seconds": 99.162696
+  },
+  "QDA": {
+    "cv_weighted_f1": 0.751513,
+    "test_weighted_f1": 0.751502,
+    "test_accuracy": 0.752040,
+    "elapsed_time_seconds": 48.618971
+  },
+  "KNN": {
+    "cv_weighted_f1": 0.7474608712472406,
+    "test_weighted_f1": 0.7482921661363009,
+    "test_accuracy": 0.7492,
+    "elapsed_time_seconds": 1782.0571768283844
+  },
+  "Logistic_Lasso": {
+    "cv_weighted_f1": 0.7139374636793481,
+    "test_weighted_f1": 0.7146071620879695,
+    "test_accuracy": 0.7398,
+    "elapsed_time_seconds": 1782.0571768283844
+  }
+}

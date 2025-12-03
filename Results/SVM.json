@@ -1,0 +1,99 @@
+{
+  "model_summary": {
+    "model_name": "best model",
+    "selected_features_count": 30,
+    "selected_features": [
+      "age",
+      "alcohol_consumption_per_week",
+      "physical_activity_minutes_per_week",
+      "diet_score",
+      "sleep_hours_per_day",
+      "bmi",
+      "waist_to_hip_ratio",
+      "systolic_bp",
+      "diastolic_bp",
+      "heart_rate",
+      "cholesterol_total",
+      "ldl_cholesterol",
+      "triglycerides",
+      "glucose_postprandial",
+      "insulin_level",
+      "family_history_diabetes",
+      "hypertension_history",
+      "gender_Male",
+      "ethnicity_Other",
+      "ethnicity_White",
+      "education_level_Highschool",
+      "education_level_No formal",
+      "education_level_Postgraduate",
+      "income_level_Lower-Middle",
+      "income_level_Middle",
+      "income_level_Upper-Middle",
+      "employment_status_Retired",
+      "employment_status_Unemployed",
+      "smoking_status_Former",
+      "smoking_status_Never"
+    ],
+    "best_hyperparameters": {
+      "select__k": 30,
+      "svc__C": 1,
+      "svc__gamma": "scale",
+      "svc__kernel": "rbf"
+    },
+    "cross_validation_metrics": {
+      "cv_weighted_f1": "0.7307 ± 0.0037",
+      "cv_accuracy": "0.7128 ± 0.0039"
+    },
+    "test_set_metrics": {
+      "test_accuracy": 0.7116,
+      "test_weighted_f1": 0.7301,
+      "elapsed_time_seconds": 14754.05,
+      "classification_report": {
+        "class_0": {
+          "precision": 0.00,
+          "recall": 0.01,
+          "f1_score": 0.01,
+          "support": 69
+        },
+        "class_1": {
+          "precision": 0.39,
+          "recall": 0.79,
+          "f1_score": 0.53,
+          "support": 1937
+        },
+        "class_2": {
+          "precision": 0.60,
+          "recall": 0.67,
+          "f1_score": 0.63,
+          "support": 8105
+        },
+        "class_3": {
+          "precision": 0.00,
+          "recall": 0.00,
+          "f1_score": 0.00,
+          "support": 31
+        },
+        "class_4": {
+          "precision": 0.93,
+          "recall": 0.73,
+          "f1_score": 0.82,
+          "support": 14858
+        },
+        "totals": {
+          "accuracy": 0.71,
+          "macro_avg": {
+            "precision": 0.38,
+            "recall": 0.44,
+            "f1_score": 0.40
+          },
+          "weighted_avg": {
+            "precision": 0.77,
+            "recall": 0.71,
+            "f1_score": 0.73
+          },
+          "support_total": 25000
+        }
+      }
+    }
+  }
+}

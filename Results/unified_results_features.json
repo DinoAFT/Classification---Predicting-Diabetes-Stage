@@ -1,0 +1,113 @@
+{
+  "Naive_Bayes": {
+    "number_of_features": 20,
+    "feature_selection_method": "forward_selection",
+    "selected_features": [
+      "age",
+      "alcohol_consumption_per_week",
+      "sleep_hours_per_day",
+      "screen_time_hours_per_day",
+      "bmi",
+      "heart_rate",
+      "glucose_postprandial",
+      "ethnicity_Black",
+      "ethnicity_Hispanic",
+      "ethnicity_White",
+      "education_level_Highschool",
+      "education_level_Postgraduate",
+      "income_level_Low",
+      "income_level_Lower-Middle",
+      "income_level_Middle",
+      "income_level_Upper-Middle",
+      "employment_status_Retired",
+      "employment_status_Unemployed",
+      "smoking_status_Former",
+      "smoking_status_Never"
+    ]
+  },
+  "SVM": {
+    "number_of_features": 30,
+    "feature_selection_method": "SelectKBest",
+    "selected_features": [
+      "age",
+      "alcohol_consumption_per_week",
+      "physical_activity_minutes_per_week",
+      "diet_score",
+      "sleep_hours_per_day",
+      "bmi",
+      "waist_to_hip_ratio",
+      "systolic_bp",
+      "diastolic_bp",
+      "heart_rate",
+      "cholesterol_total",
+      "ldl_cholesterol",
+      "triglycerides",
+      "glucose_postprandial",
+      "insulin_level",
+      "family_history_diabetes",
+      "hypertension_history",
+      "gender_Male",
+      "ethnicity_Other",
+      "ethnicity_White",
+      "education_level_Highschool",
+      "education_level_No formal",
+      "education_level_Postgraduate",
+      "income_level_Lower-Middle",
+      "income_level_Middle",
+      "income_level_Upper-Middle",
+      "employment_status_Retired",
+      "employment_status_Unemployed",
+      "smoking_status_Former",
+      "smoking_status_Never"
+    ]
+  },
+  "LDA": {
+    "number_of_features": 9,
+    "feature_selection_method": "forward_selection",
+    "selected_features": [
+      "glucose_postprandial",
+      "family_history_diabetes",
+      "age",
+      "physical_activity_minutes_per_week",
+      "bmi",
+      "waist_to_hip_ratio",
+      "triglycerides",
+      "ldl_cholesterol",
+      "hypertension_history"
+    ]
+  },
+  "QDA": {
+    "number_of_features": 6,
+    "feature_selection_method": "forward_selection",
+    "selected_features": [
+      "glucose_postprandial",
+      "age",
+      "hdl_cholesterol",
+      "insulin_level",
+      "family_history_diabetes",
+      "heart_rate"
+    ]
+  },
+  "KNN": {
+    "number_of_features": 9,
+    "feature_selection_method": "Lasso",
+    "selected_features": [
+      "cat__gender_Female",
+      "cat__gender_Male",
+      "cat__gender_Other",
+      "cat__ethnicity_Asian",
+      "cat__income_level_Lower-Middle",
+      "cat__employment_status_Student",
+      "num__age",
+      "num__glucose_postprandial",
+      "num__family_history_diabetes"
+    ]
+  },
+  "Logistic_Lasso": {
+    "number_of_features": 1,
+    "feature_selection_method": "Lasso",
+    "selected_features": [
+      "num__glucose_postprandial"
+    ]
+  }
+}

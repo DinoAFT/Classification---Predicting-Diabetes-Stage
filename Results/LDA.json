@@ -1,0 +1,25 @@
+
+{
+  "model_summary": {
+    "number_of_features": 9,
+    "selected_features": [
+      "glucose_postprandial",
+      "family_history_diabetes",
+      "age",
+      "physical_activity_minutes_per_week",
+      "bmi",
+      "waist_to_hip_ratio",
+      "triglycerides",
+      "ldl_cholesterol",
+      "hypertension_history"
+    ],
+    "cross_validation_metrics": {
+      "cv_weighted_f1": 0.734874
+    },
+    "test_set_metrics": {
+      "test_weighted_f1": 0.737571,
+      "test_accuracy": 0.749080,
+      "elapsed_time_seconds": 99.162696
+    }
+  }
+}

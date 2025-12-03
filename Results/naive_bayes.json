@@ -1,0 +1,94 @@
+
+{
+    "model_summary": {
+        "best_params": {
+            "feature_select__n_features_to_select": 20,
+            "nb__var_smoothing": 1e-06
+        },
+        "cv_metrics": {
+            "cv_weighted_f1": "0.7506 ± 0.0011",
+            "cv_accuracy": "0.7534 ± 0.0014"
+        },
+        "test_metrics": {
+            "test_accuracy": 0.7528,
+            "test_weighted_f1": 0.7504
+        },
+        "elapsed_time_seconds": 702.03
+    },
+    "selected_features": [
+        "age",
+        "alcohol_consumption_per_week",
+        "sleep_hours_per_day",
+        "screen_time_hours_per_day",
+        "bmi",
+        "heart_rate",
+        "glucose_postprandial",
+        "ethnicity_Black",
+        "ethnicity_Hispanic",
+        "ethnicity_White",
+        "education_level_Highschool",
+        "education_level_Postgraduate",
+        "income_level_Low",
+        "income_level_Lower-Middle",
+        "income_level_Middle",
+        "income_level_Upper-Middle",
+        "employment_status_Retired",
+        "employment_status_Unemployed",
+        "smoking_status_Former",
+        "smoking_status_Never"
+    ],
+    "classification_report": {
+        "class_metrics": [
+            {
+                "class": 0,
+                "precision": 0.00,
+                "recall": 0.00,
+                "f1_score": 0.00,
+                "support": 69
+            },
+            {
+                "class": 1,
+                "precision": 0.53,
+                "recall": 0.44,
+                "f1_score": 0.48,
+                "support": 1937
+            },
+            {
+                "class": 2,
+                "precision": 0.63,
+                "recall": 0.67,
+                "f1_score": 0.65,
+                "support": 8105
+            },
+            {
+                "class": 3,
+                "precision": 0.00,
+                "recall": 0.00,
+                "f1_score": 0.00,
+                "support": 31
+            },
+            {
+                "class": 4,
+                "precision": 0.85,
+                "recall": 0.85,
+                "f1_score": 0.85,
+                "support": 14858
+            }
+        ],
+        "overall_metrics": {
+            "accuracy": 0.75,
+            "macro_avg": {
+                "precision": 0.40,
+                "recall": 0.39,
+                "f1_score": 0.39,
+                "support": 25000
+            },
+            "weighted_avg": {
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1_score": 0.75,
+                "support": 25000
+            }
+        }
+    }
+}
