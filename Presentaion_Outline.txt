@@ -1,9 +1,0 @@
-Presentation Outline:
-
-- Introduction
-  - Introduce
-  - feature list
-- Methods
-  - Go through each method and preprocessing
-- Results and Comparisons (table with matrix)
-- Conclusion
